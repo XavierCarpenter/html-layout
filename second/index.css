@@ -1,0 +1,64 @@
+.top-container {
+  border: solid black;
+  height: 25vh;
+  width: 100%;
+  margin: 30px;
+  /* text-align: center; */
+}
+.box1 {
+  display: inline-block;
+  background: purple;
+  height: 54%;
+  width: 70px;
+  margin: 90px 10px 0 10px;
+}
+.box2 {
+  display: inline-block;
+  background: green;
+  height: 65%;
+  width: 20%;
+  margin: 10px 10px 10px 40px;
+}
+.circle {
+  display: inline-block;
+  background-color: aqua;
+  height: 65%;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.middle-container {
+  border: dotted black;
+  height: 25vh;
+  width: 100%;
+  margin: 30px;
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  background: tan;
+  width: 45%;
+  height: 60%;
+  margin: 40px 0;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.hello-friends {
+  display: inline-block;
+  background: whitesmoke;
+  width: 400px;
+  height: 350px;
+  margin: 40px 680px;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#text {
+  margin-top: 120px;
+  /* vertical-align: middle; */
+}
